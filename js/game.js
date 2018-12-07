@@ -40,7 +40,7 @@ function generateGame() {
 	var cardColor = retRand(cardColors),
 		// get random card value
         cardValue = retRand(cardValues),
-        cardValue = cardValues,
+        //cardValue = cardValues,
 		// Count how many cards there will be
 		numCards = cardValues.length;
 	// Initialize the cards	
