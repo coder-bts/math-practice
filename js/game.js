@@ -39,8 +39,8 @@ function generateGame() {
 	// get random card color
 	var cardColor = retRand(cardColors),
 		// get random card value
-		//cardValue = retRand(cardValues),
-	    cardValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        cardValue = retRand(cardValues),
+        cardValue = cardValues,
 		// Count how many cards there will be
 		numCards = cardValues.length;
 	// Initialize the cards	
