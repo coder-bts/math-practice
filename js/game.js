@@ -67,11 +67,11 @@ function generateGame() {
 				backgroundColor: 'rgba(0,170,0,1)'
 			}, 300);
 			// Play random 'correct' sound effect
-			yesArr[Math.floor(Math.random() * yesArr.length)].play();
+			//yesArr[Math.floor(Math.random() * yesArr.length)].play();
 			// Wait 1 second, then Refresh the playing field
 			setTimeout(function () {
 				generateGame();
-			}, 1000);
+			}, 10);
 		}
 		// Else (if the answer is wrong)
 		else {
